@@ -150,16 +150,6 @@ input, select, textarea {
 	  }
 	}
 
-	#interactableIcon {
-		cursor: pointer;
-		transition: 0.3s;
-	}
-
-	#interactableIcon: hover {
-		opacity: 0.7;
-	}
-
-
 /* Basic */
 
 	html {
@@ -2453,6 +2443,11 @@ input, select, textarea {
 			}
 
 			ul.icons-grid li:hover {opacity: 0.7}
+
+			ul.icons-grid li {
+				cursor: pointer;
+				transition: 0.3s;
+			}
 
 		ul.icons-grid:after {
 			clear: both;
