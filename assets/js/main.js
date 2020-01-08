@@ -181,7 +181,7 @@
 	img.onclick = function(){
 	  modal.style.display = "block";
 	  // modalImg.src = this.src;
-	  modalImg.src = 'url("assets/css/images/overlay.png")';
+	  modalImg.src = "images-launch/img1;
 	  captionText.innerHTML = "test";
 	}
 
