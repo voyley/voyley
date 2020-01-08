@@ -178,7 +178,7 @@
 	// var img = document.getElementById("myImg");
 	var modalImg = document.getElementById("expandedImage");
 	// var captionText = document.getElementById("caption");
-	img.onclick = function(){
+	modalImg.onclick = function(){
 	  modal.style.display = "block";
 	  // modalImg.src = this.src;
 	  modalImg.src = "images-launch/img1.jpg";
