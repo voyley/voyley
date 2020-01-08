@@ -177,12 +177,12 @@
 	// Get the image and insert it inside the modal - use its "alt" text as a caption
 	// var img = document.getElementById("myImg");
 	var modalImg = document.getElementById("expandedImage");
-	console.log(modalImg);
 	// var captionText = document.getElementById("caption");
 	modalImg.onclick = function(){
 	  modal.style.display = "block";
 	  // modalImg.src = this.src;
 	  modalImg.src = "images-launch/img1.jpg";
+	  console.log(modalImg.src)
 	  captionText.innerHTML = "test";
 	}
 
