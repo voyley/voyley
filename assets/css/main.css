@@ -2439,11 +2439,11 @@ input, select, textarea {
 			}
 
 			ul.icons-grid li:nth-child(2n + 1) {
-				box-shadow: inset -1px 0 0 0 #cccccc, 1px 0 0 0 #cccccc;
+				box-shadow: inset -1px 0 0 0 #dddddd, 1px 0 0 0 #dddddd;
 			}
 
 			ul.icons-grid li:nth-child(2n + 3):before {
-				background: #cccccc;
+				background: #dddddd;
 				content: '';
 				display: block;
 				height: 2px;
