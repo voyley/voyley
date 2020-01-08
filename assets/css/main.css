@@ -2450,11 +2450,6 @@ input, select, textarea {
 			display: block;
 		}
 
-	#ul.icons-grid li {
-		cursor: pointer;
-		transition: 0.3s;
-	}
-
 /* Actions */
 
 	ul.actions {
