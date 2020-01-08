@@ -181,7 +181,7 @@
 	img.onclick = function(){
 	  modal.style.display = "block";
 	  // modalImg.src = this.src;
-	  modalImg.src = "images-launch/img1";
+	  modalImg.src = "images-launch/img1.jpg";
 	  captionText.innerHTML = "test";
 	}
 
