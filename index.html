@@ -136,14 +136,7 @@
 						<p>Voyley is a web app/smartphone app that gives travellers the flexibility to plan and book tickets hassle free while on the go. Using our 'mix and match' ticketing system, you can now customise and curate your journey to cater to your overall travel needs!</p>
 						<ul class="icons-grid">
 							<li>
-								<span class="icon solid major fa-compass" style="cursor: pointer; transition: 0.3s" data-toggle="modal" data-target="myModal">
-									<!-- The Modal -->
-									<div id="myModal" class="modal">
-										<span class="close">&times;</span>
-									  	<img id="expandedImage" class="modal-content">
-									  	<div id="caption"></div>
-									</div>
-								</span>
+								<span id="plan" class="icon solid major fa-compass" style="cursor: pointer; transition: 0.3s"></span>
 								<h3 style="cursor: pointer; transition: 0.3s">Plan</h3>
 							</li>
 							<li>
@@ -161,6 +154,13 @@
 						</ul>
 					</div>
 					<a href="#three" class="goto-next scrolly">Next</a>
+				</div>
+
+				<!-- The Modal -->
+				<div id="myModal" class="modal">
+					<span class="close">&times;</span>
+				  	<img id="expandedImage" class="modal-content">
+				  	<div id="caption"></div>
 				</div>
 
 			</section>
@@ -549,7 +549,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			console.log(modal);
 
 			// Get the image and insert it inside the modal - use its "alt" text as a caption
-			// var img = document.getElementById("myImg");
+			var img = document.getElementById("plan");
 			var modalImg = document.getElementById("expandedImage");
 			console.log(modalImg);
 			// var captionText = document.getElementById("caption");
