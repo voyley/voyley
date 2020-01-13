@@ -546,18 +546,18 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 			<script>
 			var modal = document.getElementById("myModal");
-			console.log(modal);
+			// console.log(modal);
 
 			// Get the image and insert it inside the modal - use its "alt" text as a caption
 			var iconPlan = document.getElementById("plan");
 			var modalImg = document.getElementById("expandedImage");
 			console.log(modalImg);
-			// var captionText = document.getElementById("caption");
+			var captionText = document.getElementById("caption");
 			iconPlan.onclick = function(){
-				console.log("clicked on icon");
+				// console.log("clicked on icon");
 				modal.style.display = "block";
 				// modalImg.src = this.src;
-				// modalImg.src = "images-launch/img1.jpg";
+				modalImg.src = "images-launch/img1.jpg";
 				// console.log(modalImg.src)
 				captionText.innerHTML = "test";
 			}
