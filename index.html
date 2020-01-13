@@ -135,19 +135,19 @@
 						</header>
 						<p>Voyley is a web app/smartphone app that gives travellers the flexibility to plan and book tickets hassle free while on the go. Using our 'mix and match' ticketing system, you can now customise and curate your journey to cater to your overall travel needs!</p>
 						<ul class="icons-grid">
-							<li>
-								<span id="plan" class="icon solid major fa-compass" style="cursor: pointer; transition: 0.3s"></span>
+							<li id="plan">
+								<span class="icon solid major fa-compass" style="cursor: pointer; transition: 0.3s"></span>
 								<h3 style="cursor: pointer; transition: 0.3s">Plan</h3>
 							</li>
-							<li>
+							<li id="ticket">
 								<span class="icon solid major fa-ticket-alt" style="cursor: pointer; transition: 0.3s"></span>
 								<h3 style="cursor: pointer; transition: 0.3s">Tickets</h3>
 							</li>
-							<li>
+							<li id="organize">
 								<span class="icon solid major fa-layer-group" style="cursor: pointer; transition: 0.3s"></span>
 								<h3 style="cursor: pointer; transition: 0.3s">Organize</h3>
 							</li>
-							<li>
+							<li id="remind">
 								<span class="icon solid major fa-calendar-check" style="cursor: pointer; transition: 0.3s"></span>
 								<h3 style="cursor: pointer; transition: 0.3s">Remind</h3>
 							</li>
@@ -546,19 +546,36 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 			<script>
 			var modal = document.getElementById("myModal");
-			// console.log(modal);
 
 			// Get the image and insert it inside the modal - use its "alt" text as a caption
 			var iconPlan = document.getElementById("plan");
 			var modalImg = document.getElementById("expandedImage");
-			console.log(modalImg);
+
 			var captionText = document.getElementById("caption");
 			iconPlan.onclick = function(){
-				// console.log("clicked on icon");
 				modal.style.display = "block";
-				// modalImg.src = this.src;
 				modalImg.src = "images-launch/img1.jpg";
-				// console.log(modalImg.src)
+				captionText.innerHTML = "test";
+			}
+
+			var iconTicket = document.getElementById("ticket");
+			iconTicket.onclick = function(){
+				modal.style.display = "block";
+				modalImg.src = "images-launch/img1.jpg";
+				captionText.innerHTML = "test";
+			}
+
+			var iconOrganize = document.getElementById("organize");
+			iconTicket.onclick = function(){
+				modal.style.display = "block";
+				modalImg.src = "images-launch/img1.jpg";
+				captionText.innerHTML = "test";
+			}
+
+			var iconRemind = document.getElementById("remind");
+			iconTicket.onclick = function(){
+				modal.style.display = "block";
+				modalImg.src = "images-launch/img1.jpg";
 				captionText.innerHTML = "test";
 			}
 
