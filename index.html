@@ -588,7 +588,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			}
 
 			modal.onclick = function() {
-				modal.style.display = "none";
+				if (event.target != modalImg) {
+					modal.style.display = "none";
+				}
 			}
 
 			</script>
